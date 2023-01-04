@@ -4,10 +4,38 @@ body {
     font-size: medium;
     color: rgb(15, 2, 55);
 }
-.menubar{
-    background-color: cornflowerblue;
+h3{
+    text-align: center;
 }
-.navigations > li{
-    background-color: blue;
-    color: azure;
+p.coffee p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ul.menubar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:rgb(15, 15, 29);
+}
+ul.menubar li {
+    float: left;
+}
+ul.menubar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.menubar li a:hover:not(.mainmenu){
+    background-color: aqua;
+}
+ul.menubar li a.right{
+    background-color: blueviolet;
+}
+ul.menubar li.right{float: right;}
+@media screen and (max-width: 600px){
+    ul.menubar li.right,
+    ul.menubar li {float: none;}
 }

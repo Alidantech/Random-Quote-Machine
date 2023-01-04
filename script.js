@@ -4,6 +4,5 @@ function darkTheme(){
     //setting the attribute values to elements
     link.rel  = "stylesheet";
     link.href = "dark.css";
-
-    head.appen
+    head.appendChild(link);
 }
