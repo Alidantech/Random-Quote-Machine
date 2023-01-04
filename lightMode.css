@@ -4,3 +4,10 @@ body {
     font-size: medium;
     color: rgb(15, 2, 55);
 }
+.menubar{
+    background-color: cornflowerblue;
+}
+.navigations > li{
+    background-color: blue;
+    color: azure;
+}
