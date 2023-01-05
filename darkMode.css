@@ -2,7 +2,7 @@ html {font-size: 100%;}
 body {
     background-color: rgb(14, 22, 35);
     font-size: medium;
-    color: rgb(222, 250, 110);
+    color: rgb(185, 186, 179);
 }
 h3{
     text-align: center;
@@ -23,12 +23,12 @@ ul.menubar li {
 }
 ul.menubar li a{
     display: block;
-    color: rgb(34, 4, 4);
+    color: rgb(100, 226, 36);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     border-style: solid;
-    border-color: rgb(250, 45, 26);
+    border-color: rgb(6, 58, 36);
     border-width: 1px;
 }
 ul.menubar li a:hover:not(.mainmenu){
@@ -54,13 +54,15 @@ ul.menubar li.right{float: right;}
     width: 50%;
     height:auto;
 }
-#themebtn {
-    background-color: rgb(76, 44, 5);
-    color: rgb(167, 235, 212);
+.themebtn {
+    background-color: rgb(84, 150, 56);
+    color: rgb(14, 55, 42);
     float:right;
     height: 52px;
 }
-#themebtn:hover {
-    background-color: blueviolet;
+.themebtn:hover {
+    background-color: rgb(97, 52, 139);
     cursor: pointer;
 }
+#dark {display:none;}
+#light {display: block;}

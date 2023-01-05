@@ -54,13 +54,15 @@ ul.menubar li.right{float: right;}
     width: 50%;
     height:auto;
 }
-#themebtn {
+.themebtn {
     background-color: rgb(21, 12, 1);
     color: aquamarine;
     float:right;
     height: 52px;
 }
-#themebtn:hover {
+.themebtn:hover {
     background-color: blueviolet;
     cursor: pointer;
 }
+#light {display:none;}
+#dark {display: block;}
