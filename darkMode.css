@@ -1,6 +1,66 @@
 html {font-size: 100%;}
 body {
-    background-color: rgb(32, 2, 67);
+    background-color: rgb(14, 22, 35);
     font-size: medium;
-    color: rgb(228, 233, 210);
+    color: rgb(222, 250, 110);
+}
+h3{
+    text-align: center;
+}
+p.coffee p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ul.menubar {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow:hidden;
+    background-color:rgb(16, 45, 22);
+}
+ul.menubar li {
+    float: left;
+}
+ul.menubar li a{
+    display: block;
+    color: rgb(34, 4, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(250, 45, 26);
+    border-width: 1px;
+}
+ul.menubar li a:hover:not(.mainmenu){
+    background-color: rgb(9, 63, 63);
+    color:rgb(245, 90, 90);
+}
+ul.menubar li a.right{
+    background-color: rgb(53, 18, 85);
+}
+ul.menubar li.right{float: right;}
+@media screen and (max-width: 600px){
+    ul.menubar li.right,
+    ul.menubar li {float: none;}
+}
+@media screen and (max-width: 600px) {
+    #photo1 {float:none;
+        width:70%;
+        height: auto;
+    }
+}
+#photo1 {
+    float:right;
+    width: 50%;
+    height:auto;
+}
+#themebtn {
+    background-color: rgb(76, 44, 5);
+    color: rgb(167, 235, 212);
+    float:right;
+    height: 52px;
+}
+#themebtn:hover {
+    background-color: blueviolet;
+    cursor: pointer;
 }
