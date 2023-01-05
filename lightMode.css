@@ -14,7 +14,6 @@ p.coffee p{
 ul.menubar {
     list-style-type: none;
     margin: 0%;
-
     padding: 0%;
     overflow:hidden;
     background-color:rgb(15, 15, 29);
@@ -34,6 +33,7 @@ ul.menubar li a{
 }
 ul.menubar li a:hover:not(.mainmenu){
     background-color: aqua;
+    color:brown;
 }
 ul.menubar li a.right{
     background-color: blueviolet;
@@ -53,4 +53,14 @@ ul.menubar li.right{float: right;}
     float:right;
     width: 50%;
     height:auto;
+}
+#themebtn {
+    background-color: rgb(21, 12, 1);
+    color: aquamarine;
+    float:right;
+    height: 52px;
+}
+#themebtn:hover {
+    background-color: blueviolet;
+    cursor: pointer;
 }
