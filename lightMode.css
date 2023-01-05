@@ -13,8 +13,9 @@ p.coffee p{
 }
 ul.menubar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+
+    padding: 0%;
     overflow:hidden;
     background-color:rgb(15, 15, 29);
 }
@@ -27,6 +28,9 @@ ul.menubar li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-style: solid;
+    border-color: rgb(43, 65, 13);
+    border-width: 1px;
 }
 ul.menubar li a:hover:not(.mainmenu){
     background-color: aqua;
@@ -38,4 +42,15 @@ ul.menubar li.right{float: right;}
 @media screen and (max-width: 600px){
     ul.menubar li.right,
     ul.menubar li {float: none;}
+}
+@media screen and (max-width: 600px) {
+    #photo1 {float:none;
+        width:70%;
+        height: auto;
+    }
+}
+#photo1 {
+    float:right;
+    width: 50%;
+    height:auto;
 }
