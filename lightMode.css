@@ -7,6 +7,9 @@ body {
 h3{
     text-align: center;
 }
+#photo1{
+    border-radius: 1rem;
+}
 p.coffee p{
     margin-left: 10%;
     margin-right: 10%;
