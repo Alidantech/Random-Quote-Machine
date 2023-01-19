@@ -17,3 +17,9 @@ function lightTheme(){
     head.appendChild(link);
    // document.getElementById('light').style.display = 'none';
 }
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue"
+  };
