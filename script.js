@@ -17,9 +17,12 @@ function lightTheme(){
     head.appendChild(link);
    // document.getElementById('light').style.display = 'none';
 }
+   //objects in javascript
 const person = {
     firstName: "John",
     lastName: "Doe",
     age: 50,
     eyeColor: "blue"
   };
+
+  #JAVASCRIPT 
