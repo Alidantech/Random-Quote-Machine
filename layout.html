@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/mmfiles/myfavicon.ico">
+    <link rel="icon" type="image/x-icon" href="/mmfiles/logo.jpeg">
     <title>This is Alidante</title>
     <!--Styling for whole doocument-->
     <style>
@@ -13,7 +13,7 @@
             margin: 0;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-size: 1em;
-            background-color: bisque;
+            background-color: rgb(248, 237, 223);
         }
     </style>
 </head>
@@ -21,10 +21,28 @@
     <!--the header part of the webpage-->
     <div class="header">
         <ul>
+            <li>
+                <div class="logo">
+                    <a href="layout.html">
+                        <img 
+                        src="/mmfiles/logo.jpeg" 
+                        alt="icon"
+                        width="30em"
+                        height="30em"
+                        />  
+                        <p>Alidante</p> 
+                    </a>
+                </div> 
+            </li>
             <li><a href="#home">Home</a></li>
-            <li><a href="#music">Music</a></li>
-            <li><a href="#movies">Movies</a></li>
-            <input id="search" type="text" align=right>
+            <li><a href="#music">music</a></li>
+            <li><a href="#movies">movies</a></li>
+            <input 
+            id="search" 
+            type="text" 
+            align=right
+            value="search"
+            />
         </ul>
     </div>
          <!--Styling for the header page-->
@@ -32,6 +50,24 @@
             div.header {
                 padding: 0em;
                 font-size: 1.5em;
+            }
+            .logo img p:hover {
+                cursor:se-resize;
+                cursor: pointer;
+            }
+            div.header img {
+                border-radius: 25px;
+                float: left;
+            }
+            div.header p {
+                font-size: 0.8em;
+                font-family:'comic sans', cursive;
+                font-weight: bold;
+                color: rgb(3, 41, 36);
+                float: left;
+                margin: 0;
+                padding: 0;
+                text-shadow: 2px 2px rgb(59, 215, 246);
             }
             div.header ul {
                 overflow: auto;
@@ -47,22 +83,44 @@
             div.header a {
                 text-decoration: none;
                 text-align: center;
-                color: rgb(2, 75, 112);
+                color: rgb(5, 32, 45);
             }
-            div.header li:hover {
-                background-color: rgb(94, 121, 145);
+            div.header a:hover {
+                text-decoration:underline;
                 border-radius: 1.5em;
-                color: antiquewhite;
+                color: darkcyan;
             }
             #search {
                 border-style:solid;
                 border-width: 0.2em;
                 border-radius: 3em;
+                border-color:rgb(3, 149, 149);
                 height:1.5em;
                 width: 20%;
                 float: right;
                 margin-right: 1.2em;
             }
+            #search:focus {
+                background-color: rgb(255, 253, 253);
+            }
          </style>
+
+         <!--The main part of the page-->
+         <div class="main">
+            <style>
+                div.main {
+                    background-color: white;
+                }
+            </style>
+         </div>
+         <!--The footer for the page-->
+         <div class="footer">
+            <style>
+                div.footer {
+                    background-color: rgb(124, 139, 152);
+                }
+            </style>
+         </div>
+
 </body>
 </html>         
