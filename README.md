@@ -13,7 +13,6 @@ A Random Quote Machine is a web application that displays random quotes to users
 
 - React
 - JavaScript
-- JQuery
 - Bootstrap
 - CSS
 
@@ -30,8 +29,14 @@ A Random Quote Machine is a web application that displays random quotes to users
 ```bash
 cd random-quote-machine
 ```
-3. Open the index.html file in your preferred web browser.
-
+3. Install the modules.
+```bash
+npm install
+```
+4. Run the Development server.
+```bash
+npm start
+```
 ## Usage
 When the page loads, a random quote is displayed.
 To request a new random quote, click the "New Quote" button.
@@ -45,5 +50,4 @@ This project is licensed under the MIT License.
 This project was inspired by the Random Quote Machine challenge on freeCodeCamp.
 
 ##Screenshots
-Screenshot 1
-Screenshot 2
+
