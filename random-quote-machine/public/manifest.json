@@ -1,0 +1,8 @@
+{
+  "short_name": "Quote Machine",
+  "name": "Random Quote Machine",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FFA500",
+  "background_color": "#FFFFFF"
+}
