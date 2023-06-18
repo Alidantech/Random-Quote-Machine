@@ -16,23 +16,23 @@ A Random Quote Machine is a web application that displays random quotes to users
 - Bootstrap
 - CSS
 
-
 ## Setup Instructions
 
 1. Clone the repository:
+```bash
+git clone https://github.com/Alidante254/Random-Quote-Machine/.git
+```
 
-   ```bash
-   git clone https://github.com/Alidante254/Random-Quote-Machine/.git
-   ```
 2. Navigate to the project directory:
-
 ```bash
 cd random-quote-machine
 ```
+
 3. Install the modules.
 ```bash
 npm install
 ```
+
 4. Run the Development server.
 ```bash
 npm start
@@ -49,5 +49,9 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 This project was inspired by the Random Quote Machine challenge on freeCodeCamp.
 
-##Screenshots
+## Screenshots
+![Screenshot 1](random-quote-machine/public/screenshots/Screenshot1.png)
+
+![Screenshot 2](random-quote-machine/public/screenshots/Screenshot2.png)
+
 
