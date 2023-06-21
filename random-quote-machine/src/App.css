@@ -1,17 +1,15 @@
 #quote-box {
   width: 40vw;
-  transition: height 1s ease-in-out;
-  max-width: 50vw;
-  padding: 2rem;
-  background-color: #f5f5f5;
+  max-width: 40vw;
+  padding: 1rem;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   margin: auto;
-  margin-top: 25vh;
 }
 
 #text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   text-justify:distribute;
   text-align: center;
@@ -19,9 +17,9 @@
 }
 
 #author {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: italic;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 #new-quote,
@@ -29,8 +27,8 @@
   background-color: #337ab7;
   color: #fff;
   border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
   cursor: pointer;
   text-decoration: none;
   border-radius: 4px;
